@@ -36,6 +36,14 @@ A lo largo de mi carrera como desarrollador de software, he puesto un énfasis e
 
 Creo en la importancia de desarrollar soluciones escalables que puedan adaptarse al crecimiento y los cambios en los requisitos. Implemento un código limpio y modular para garantizar que las aplicaciones puedan manejar mayores volúmenes de datos y usuarios sin comprometer el rendimiento y la calidad.
 
+### Organizaciones en las que colaboro
+
+- [Developer Code FullStack](https://github.com/DeveloperCode-FullStack)
+- [Semillero de Investigacón Developers Geeks](https://github.com/developers-geeks)
+- [Hackaboss Bootcamps](https://github.com/hackaboss-bootcamps)
+- [Servicio Nacional de Aprendizaje (SENA)](https://github.com/ServicioNacionalAprendizaje)
+
+
 ### Contacto
 
 📧 Correo electrónico: [jesusarielgb@gmail.com](mailto:jesusarielgb@gmail.com)
