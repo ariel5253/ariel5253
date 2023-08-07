@@ -43,7 +43,7 @@ Creo en la importancia de desarrollar soluciones escalables que puedan adaptarse
 - [Academic Sessions Servicio Nacional de Aprendizaje (SENA)](https://github.com/ServicioNacionalAprendizaje)
 - [Developer Code FullStack](https://github.com/DeveloperCode-FullStack)
 - [Hackaboss Bootcamps - España](https://github.com/hackaboss-bootcamps)
-- [Research Hotbed Developers Geeks - SENA](https://github.com/developers-geeks)
+- [Research Hotbed Developers Geeks - Neiva](https://github.com/developers-geeks)
 
 
 ### Contacto
