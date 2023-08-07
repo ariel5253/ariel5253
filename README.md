@@ -38,7 +38,7 @@ Creo en la importancia de desarrollar soluciones escalables que puedan adaptarse
 
 ### Organizaciones en las que colaboro
 
-- [Academic Sessions Corhuila - Neiva](https://github.com/Corhuila)
+- [Academic Sessions Corhuila - Neiva](https://github.com/code-corhuila)
 - [Academic Sessions UNAB - Bucaramanga](https://github.com/UNAB)
 - [Academic Sessions Servicio Nacional de Aprendizaje (SENA)](https://github.com/ServicioNacionalAprendizaje)
 - [Developer Code FullStack](https://github.com/DeveloperCode-FullStack)
