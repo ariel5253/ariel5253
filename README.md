@@ -38,10 +38,12 @@ Creo en la importancia de desarrollar soluciones escalables que puedan adaptarse
 
 ### Organizaciones en las que colaboro
 
+- [Academic Sessions Corhuila - Neiva](https://github.com/Corhuila)
+- [Academic Sessions UNAB - Bucaramanga](https://github.com/UNAB)
+- [Academic Sessions Servicio Nacional de Aprendizaje (SENA)](https://github.com/ServicioNacionalAprendizaje)
 - [Developer Code FullStack](https://github.com/DeveloperCode-FullStack)
-- [Semillero de Investigacón Developers Geeks](https://github.com/developers-geeks)
-- [Hackaboss Bootcamps](https://github.com/hackaboss-bootcamps)
-- [Servicio Nacional de Aprendizaje (SENA)](https://github.com/ServicioNacionalAprendizaje)
+- [Hackaboss Bootcamps - España](https://github.com/hackaboss-bootcamps)
+- [Research Hotbed Developers Geeks - SENA](https://github.com/developers-geeks)
 
 
 ### Contacto
