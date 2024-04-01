@@ -7,14 +7,13 @@
 
 ### Estadísticas de GitHub
 
-- **Organizaciones:** [![Organizaciones](https://img.shields.io/badge/Organizations-{{NUMERO}}-blue)](https://github.com/{{TU_USUARIO}}?tab=organizations)
-- **Grupos:** [![Grupos](https://img.shields.io/badge/Groups-{{NUMERO}}-blue)](https://github.com/{{TU_USUARIO}}?tab=groups)
-- **Repositorios:** [![Repositorios](https://img.shields.io/badge/Repos-{{NUMERO}}-blue)](https://github.com/{{TU_USUARIO}}?tab=repositories)
+- **Organizaciones:** [![Organizaciones](https://img.shields.io/badge/Organizations-0-blue)](https://github.com/ariel5253?tab=organizations)
+- **Grupos:** [![Grupos](https://img.shields.io/badge/Groups-0-blue)](https://github.com/ariel5253?tab=groups)
+- **Repositorios:** [![Repositorios](https://img.shields.io/badge/Repos-0-blue)](https://github.com/ariel5253?tab=repositories)
 
 ### Tecnologías Utilizadas
 
-[![Tecnologías Utilizadas](https://github-readme-stats.vercel.app/api/top-langs/?username={{TU_USUARIO}})](https://github.com/{{TU_USUARIO}})
-
+[![Tecnologías Utilizadas](https://github-readme-stats.vercel.app/api/top-langs/?username=ariel5253)](https://github.com/ariel5253)
 
 ### ¡Hola! 👋
 
