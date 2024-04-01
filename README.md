@@ -5,6 +5,17 @@
 
 [![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=ariel5253&show_icons=true&count_private=true)](https://github.com/ariel5253)
 
+### Estadísticas de GitHub
+
+- **Organizaciones:** [![Organizaciones](https://img.shields.io/badge/Organizations-{{NUMERO}}-blue)](https://github.com/{{TU_USUARIO}}?tab=organizations)
+- **Grupos:** [![Grupos](https://img.shields.io/badge/Groups-{{NUMERO}}-blue)](https://github.com/{{TU_USUARIO}}?tab=groups)
+- **Repositorios:** [![Repositorios](https://img.shields.io/badge/Repos-{{NUMERO}}-blue)](https://github.com/{{TU_USUARIO}}?tab=repositories)
+
+### Tecnologías Utilizadas
+
+[![Tecnologías Utilizadas](https://github-readme-stats.vercel.app/api/top-langs/?username={{TU_USUARIO}})](https://github.com/{{TU_USUARIO}})
+
+
 ### ¡Hola! 👋
 
 Soy Jesús Ariel González Bonilla, un apasionado desarrollador Full-Stack con más de seis años de experiencia trabajando con diversas tecnologías como Java, Python, PHP, SQL Server, Mysql, entre otras. Mi enfoque se centra en el diseño y desarrollo de soluciones escalables, atractivas y robustas.
