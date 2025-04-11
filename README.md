@@ -40,7 +40,7 @@ Creo en la importancia de desarrollar soluciones escalables que puedan adaptarse
 
 - [Academic Sessions Corhuila - Neiva](https://github.com/code-corhuila)
 - [Academic Sessions UNAB - Bucaramanga](https://github.com/UNAB)
-- [Academic Sessions Servicio Nacional de Aprendizaje (SENA)](https://github.com/ServicioNacionalAprendizaje)
+- [Academic Sessions Servicio Nacional de Aprendizaje (SENA)](https://github.com/code-sena)
 - [Developer Code FullStack](https://github.com/DeveloperCode-FullStack)
 - [Hackaboss Bootcamps - España](https://github.com/hackaboss-bootcamps)
 - [Research Hotbed Developers Geeks - Neiva](https://github.com/developers-geeks)
