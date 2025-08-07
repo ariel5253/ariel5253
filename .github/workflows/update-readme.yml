@@ -13,36 +13,57 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Checkout del repo
+      # 1) Checkout
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2) Configuración de Git
-      - name: Set up git config
+      # 2) Configurar Git
+      - name: Configurar Git
         run: |
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 3) Generar tarjetas (el token viaja como parámetro ?token=…)
-      - name: Generate README stats
+      # 3) Generar tarjetas
+      - name: Generar tarjetas de estadísticas
+        id: gen
         env:
           TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: |
+          set -e
           mkdir -p assets
 
-          echo "Descargando gh-stats.svg…"
-          curl -sSfL \
-            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight&token=${TOKEN}" \
-            -o assets/gh-stats.svg
+          # Función auxiliar para descargar con reintento
+          download () {
+            local url=$1
+            local outfile=$2
 
-          echo "Descargando gh-streak.svg…"
-          curl -sSfL \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight" \
-            -o assets/gh-streak.svg
+            echo "→ Descargando $outfile"
+            local code=$(curl -sSL -H "Authorization: token $TOKEN" -o "$outfile" -w '%{http_code}' "$url")
+            echo "Código HTTP: $code"
 
-      # 4) Commit & push si hay cambios
-      - name: Commit and push if updated
+            if [ "$code" -ge 500 ]; then
+              echo "Primer intento falló con $code, reintentando…"
+              sleep 3
+              code=$(curl -sSL -H "Authorization: token $TOKEN" -o "$outfile" -w '%{http_code}' "$url")
+              echo "Código HTTP segundo intento: $code"
+            fi
+
+            # Salir si sigue sin ser 200
+            if [ "$code" -ne 200 ]; then
+              echo "Error descargando $outfile (HTTP $code)"
+              exit 1
+            fi
+          }
+
+          download "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight" \
+                   "assets/gh-stats.svg"
+
+          download "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight" \
+                   "assets/gh-streak.svg"
+
+      # 4) Commit & push si hubo cambios
+      - name: Commit y push
         run: |
           if git status --porcelain | grep assets/; then
             git add assets
@@ -50,5 +71,5 @@ jobs:
             git push
             echo "SVG actualizados y enviados."
           else
-            echo "Sin cambios en los SVG; no se hace commit."
+            echo "Sin cambios en los SVG."
           fi
