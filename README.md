@@ -68,18 +68,6 @@ Más de siete años impartiendo desarrollo de software en **SENA**, **Corporaci�
 
 ---
 
-## ⭐ Métricas de organizaciones donde colaboro
-| Organización | Estrellas | Forks | Repos |
-|--------------|-----------|-------|-------|
-| [code-corhuila](https://github.com/code-corhuila) | ![Stars](https://img.shields.io/github/stars/code-corhuila/code-corhuila?style=social) | ![Forks](https://img.shields.io/github/forks/code-corhuila/code-corhuila?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/code-corhuila&style=flat-square) |
-| [UNAB](https://github.com/UNAB) | ![Stars](https://img.shields.io/github/stars/UNAB/UNAB?style=social) | ![Forks](https://img.shields.io/github/forks/UNAB/UNAB?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/UNAB&style=flat-square) |
-| [code-sena](https://github.com/code-sena) | ![Stars](https://img.shields.io/github/stars/code-sena/code-sena?style=social) | ![Forks](https://img.shields.io/github/forks/code-sena/code-sena?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/code-sena&style=flat-square) |
-| [Developer Code FullStack](https://github.com/DeveloperCode-FullStack) | ![Stars](https://img.shields.io/github/stars/DeveloperCode-FullStack/DeveloperCode-FullStack?style=social) | ![Forks](https://img.shields.io/github/forks/DeveloperCode-FullStack/DeveloperCode-FullStack?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/DeveloperCode-FullStack&style=flat-square) |
-| [hackaboss-bootcamps](https://github.com/hackaboss-bootcamps) | ![Stars](https://img.shields.io/github/stars/hackaboss-bootcamps/hackaboss-bootcamps?style=social) | ![Forks](https://img.shields.io/github/forks/hackaboss-bootcamps/hackaboss-bootcamps?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/hackaboss-bootcamps&style=flat-square) |
-| [developers-geeks](https://github.com/developers-geeks) | ![Stars](https://img.shields.io/github/stars/developers-geeks/developers-geeks?style=social) | ![Forks](https://img.shields.io/github/forks/developers-geeks/developers-geeks?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/developers-geeks&style=flat-square) |
-
----
-
 ## 🤝 Comunidades y colaboraciones
 | Comunidad / Programa | Ciudad / País | Repositorio |
 |----------------------|--------------|-------------|
