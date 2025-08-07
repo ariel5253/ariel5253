@@ -2,7 +2,7 @@ name: Actualizar tarjetas del README
 
 on:
   schedule:
-    - cron: '0 3 * * *'        # cada día a las 03 UTC
+    - cron: '0 3 * * *'        # cada día 03 UTC
   workflow_dispatch:
 
 permissions:
@@ -24,52 +24,54 @@ jobs:
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 3) Generar tarjetas
-      - name: Generar tarjetas de estadísticas
-        id: gen
+      # 3) Generar todas las tarjetas
+      - name: Generar tarjetas SVG
         env:
           TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: |
           set -e
           mkdir -p assets
 
-          # Función auxiliar para descargar con reintento
           download () {
             local url=$1
             local outfile=$2
 
-            echo "→ Descargando $outfile"
+            echo "→ $outfile"
             local code=$(curl -sSL -H "Authorization: token $TOKEN" -o "$outfile" -w '%{http_code}' "$url")
-            echo "Código HTTP: $code"
-
+            echo "HTTP $code"
             if [ "$code" -ge 500 ]; then
-              echo "Primer intento falló con $code, reintentando…"
-              sleep 3
+              echo "Reintento…"
+              sleep 2
               code=$(curl -sSL -H "Authorization: token $TOKEN" -o "$outfile" -w '%{http_code}' "$url")
-              echo "Código HTTP segundo intento: $code"
+              echo "HTTP $code (2º intento)"
             fi
-
-            # Salir si sigue sin ser 200
-            if [ "$code" -ne 200 ]; then
-              echo "Error descargando $outfile (HTTP $code)"
-              exit 1
-            fi
+            [ "$code" -eq 200 ] || { echo "Fallo descargando $outfile"; exit 1; }
           }
 
+          # 3.1 Resumen general (privado)
           download "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight" \
                    "assets/gh-stats.svg"
 
+          # 3.2 Racha de contribuciones
           download "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight" \
                    "assets/gh-streak.svg"
 
-      # 4) Commit & push si hubo cambios
+          # 3.3 Lenguaje con más commits (dona)
+          download "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${{ github.repository_owner }}&theme=tokyonight" \
+                   "assets/lang-commit.svg"
+
+          # 3.4 Repos por lenguaje (dona)
+          download "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${{ github.repository_owner }}&theme=tokyonight" \
+                   "assets/lang-repos.svg"
+
+      # 4) Commit & push si cambió algo
       - name: Commit y push
         run: |
-          if git status --porcelain | grep assets/; then
+          if git status --porcelain | grep '^ M\|^??' | grep assets/; then
             git add assets
             git commit -m "chore: auto-update README stats [skip ci]"
             git push
-            echo "SVG actualizados y enviados."
+            echo "SVG actualizados ✔"
           else
-            echo "Sin cambios en los SVG."
+            echo "Sin cambios en SVG ✔"
           fi
