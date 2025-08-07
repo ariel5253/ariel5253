@@ -1,55 +1,103 @@
-### Jesús Ariel González Bonilla
-### Desarrollador Full-Stack | Spring Boot | Modelado de Software | SQL | Vue JS
+<!-- README.md — perfil profesional -->
 
-![Location](https://img.shields.io/badge/Location-Neiva,%20Huila,%20Colombia-blue)
+<h1 align="center">Jesús Ariel González Bonilla</h1>
+<p align="center">
+  Desarrollador full-stack &nbsp;|&nbsp; Go · Spring Boot · Vue.js &nbsp;|&nbsp; IA &amp; docencia técnica
+</p>
 
-### ¡Hola! 👋
+<p align="center">
+  <img src="https://img.shields.io/badge/Ubicación-Neiva,%20Huila,%20Colombia-blue?style=flat-square" alt="Ubicación">
+  <img src="https://komarev.com/ghpvc/?username=ariel5253&label=Visitas&style=flat-square&color=brightgreen" alt="Visitas al perfil">
+</p>
 
-Soy Jesús Ariel González Bonilla, un apasionado desarrollador Full-Stack con más de seis años de experiencia trabajando con diversas tecnologías como Java, Python, PHP, SQL Server, Mysql, entre otras. Mi enfoque se centra en el diseño y desarrollo de soluciones escalables, atractivas y robustas.
+---
 
-### Experiencia Docente
+## 🗒 Sobre mí
+Desarrollador **full-stack** con **diez años** de experiencia en la creación de soluciones limpias, robustas y escalables.  
+Trabajo con **Go** y **Spring Boot**, curso una **Especialización en Inteligencia Artificial** y participo en **AI4Devs Seniors**.  
+Combino mi labor técnica con la **docencia** en educación superior, fomentando pensamiento crítico y buenas prácticas de ingeniería.
 
-Durante los últimos siete años, también he desempeñado un rol como docente de Desarrollo de Software. Me enorgullece compartir mi conocimiento con otros, fomentando el aprendizaje y el trabajo en equipo en el campo del desarrollo. Soy un apasionado por colaborar y apoyar en el desarrollo del aprendizaje de las demás personas.
+---
 
-### Educación
+## 💼 Trayectoria profesional
+- **2015 – presente** | Proyectos comerciales y académicos en Go, Spring Boot y Vue.js.  
+- Diseño y mantenimiento de arquitecturas limpias, microservicios y API REST.  
+- Liderazgo técnico en equipos ágiles y mentoría a desarrolladores junior.  
 
-- **Especialización Tecnológica, Procesos Pedagógicos de la Formación Profesional**
-- **Maestría, Gerencia en Sistemas de Información y Proyectos Tecnológicos**
-- **Especialización Tecnológica, Gestión en Seguridad de Base de Datos**
-- **Ingeniería de Sistemas**
-- **Tecnólogo en Análisis y Desarrollo de Sistemas de Información, Ingeniería de Software**
+---
 
-### Habilidades Técnicas
+## 🛠 Competencias técnicas
+| Área | Tecnologías |
+|------|-------------|
+| **Lenguajes** | Go · Java (Spring Boot) · Python · PHP · SQL |
+| **Frontend & mobile** | Vue.js · Ionic |
+| **Bases de datos** | PostgreSQL · MySQL · SQL Server · MongoDB |
+| **DevOps & calidad** | Git · Docker · CI/CD (GitHub Actions, GitLab CI) · Testing |
+| **Arquitectura** | Clean Architecture · API REST · UML |
 
-- Modelado avanzado de bases de datos SQL/NoSQL
-- Construcción Backend - APIRest
-- Construcción Frontend - MPA - SPA
-- Estructuración de proyectos
+---
 
-### Educación Continua
+## 👨‍🏫 Experiencia docente
+Más de siete años impartiendo desarrollo de software en **SENA**, **Corporación Universitaria Corhuila** y **UNAB**, acompañando proyectos académicos y profesionales.
 
-Siempre estoy en búsqueda de fortalecer mis habilidades técnicas y transversales para formular, diseñar y ejecutar proyectos de investigación e innovación en beneficio de la organización y la comunidad.
+---
 
-### Enfoque en Buenas Prácticas y Código Escalable
+## 🎓 Formación académica
+- Especialización en **Inteligencia Artificial** *(en curso)*  
+- Programa **AI4Devs Seniors** *(en curso)*  
+- Maestría en **Gerencia de Sistemas de Información y Proyectos Tecnológicos**  
+- Especialización en **Procesos Pedagógicos de la Formación Profesional**  
+- Especialización en **Seguridad de Base de Datos**  
+- **Ingeniería de Sistemas**  
+- Tecnólogo en **ADSI** (Análisis y Desarrollo de Sistemas de Información)
 
-A lo largo de mi carrera como desarrollador de software, he puesto un énfasis especial en seguir buenas prácticas y crear código escalable. Entiendo la importancia de adherirse a patrones de diseño adecuados, metodologías ágiles y estándares de codificación. Mi enfoque en el desarrollo limpio y mantenible me ha permitido trabajar de manera más eficiente y colaborativa en los proyectos.
+---
 
-Creo en la importancia de desarrollar soluciones escalables que puedan adaptarse al crecimiento y los cambios en los requisitos. Implemento un código limpio y modular para garantizar que las aplicaciones puedan manejar mayores volúmenes de datos y usuarios sin comprometer el rendimiento y la calidad.
+## 🔥 Estadísticas de GitHub
+<p align="center">
+  <img src="assets/gh-stats.svg" alt="Resumen GitHub" height="160"/>
+  <img src="assets/lang-commit.svg" alt="Lenguaje con más commits" height="160"/>
+  <br/>
+  <img src="assets/gh-streak.svg" alt="Racha de contribuciones" height="180"/>
+  <img src="assets/lang-repos.svg" alt="Repos por lenguaje" height="180"/>
+  <br/>
+  <img src="https://github-profile-trophy.vercel.app/?username=ariel5253&theme=tokyonight&no-frame=true&row=1&margin-w=12" alt="Trofeos de perfil"/>
+</p>
 
-### Organizaciones en las que colaboro
+> Estas tarjetas se actualizan automáticamente cada día mediante un workflow de GitHub Actions e incluyen mis contribuciones privadas.
 
-- [Academic Sessions Corhuila - Neiva](https://github.com/code-corhuila)
-- [Academic Sessions UNAB - Bucaramanga](https://github.com/UNAB)
-- [Academic Sessions Servicio Nacional de Aprendizaje (SENA)](https://github.com/code-sena)
-- [Developer Code FullStack](https://github.com/DeveloperCode-FullStack)
-- [Hackaboss Bootcamps - España](https://github.com/hackaboss-bootcamps)
-- [Research Hotbed Developers Geeks - Neiva](https://github.com/developers-geeks)
+---
 
+## ⭐ Métricas de organizaciones donde colaboro
+| Organización | Estrellas | Forks | Repos |
+|--------------|-----------|-------|-------|
+| [code-corhuila](https://github.com/code-corhuila) | ![Stars](https://img.shields.io/github/stars/code-corhuila/code-corhuila?style=social) | ![Forks](https://img.shields.io/github/forks/code-corhuila/code-corhuila?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/code-corhuila&style=flat-square) |
+| [UNAB](https://github.com/UNAB) | ![Stars](https://img.shields.io/github/stars/UNAB/UNAB?style=social) | ![Forks](https://img.shields.io/github/forks/UNAB/UNAB?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/UNAB&style=flat-square) |
+| [code-sena](https://github.com/code-sena) | ![Stars](https://img.shields.io/github/stars/code-sena/code-sena?style=social) | ![Forks](https://img.shields.io/github/forks/code-sena/code-sena?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/code-sena&style=flat-square) |
+| [Developer Code FullStack](https://github.com/DeveloperCode-FullStack) | ![Stars](https://img.shields.io/github/stars/DeveloperCode-FullStack/DeveloperCode-FullStack?style=social) | ![Forks](https://img.shields.io/github/forks/DeveloperCode-FullStack/DeveloperCode-FullStack?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/DeveloperCode-FullStack&style=flat-square) |
+| [hackaboss-bootcamps](https://github.com/hackaboss-bootcamps) | ![Stars](https://img.shields.io/github/stars/hackaboss-bootcamps/hackaboss-bootcamps?style=social) | ![Forks](https://img.shields.io/github/forks/hackaboss-bootcamps/hackaboss-bootcamps?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/hackaboss-bootcamps&style=flat-square) |
+| [developers-geeks](https://github.com/developers-geeks) | ![Stars](https://img.shields.io/github/stars/developers-geeks/developers-geeks?style=social) | ![Forks](https://img.shields.io/github/forks/developers-geeks/developers-geeks?style=social) | ![Repos](https://img.shields.io/badge/dynamic/json?color=blue&label=Repos&query=%24.public_repos&url=https://api.github.com/orgs/developers-geeks&style=flat-square) |
 
-### Contacto
+---
 
-📧 Correo electrónico: [jesusarielgb@gmail.com](mailto:jesusarielgb@gmail.com)
+## 🤝 Comunidades y colaboraciones
+| Comunidad / Programa | Ciudad / País | Repositorio |
+|----------------------|--------------|-------------|
+| Academic Sessions Corhuila | Neiva, Colombia | [code-corhuila](https://github.com/code-corhuila) |
+| Academic Sessions UNAB | Bucaramanga, Colombia | [UNAB](https://github.com/UNAB) |
+| Academic Sessions SENA | Colombia | [code-sena](https://github.com/code-sena) |
+| Developer Code FullStack | Colombia | [DeveloperCode-FullStack](https://github.com/DeveloperCode-FullStack) |
+| Hackaboss Bootcamps | España | [hackaboss-bootcamps](https://github.com/hackaboss-bootcamps) |
+| Research Hotbed Developers Geeks | Neiva, Colombia | [developers-geeks](https://github.com/developers-geeks) |
 
-🌐 LinkedIn: [linkedin.com/in/jesusarielgonzalezbonilla](https://www.linkedin.com/in/jesusarielgonzalezbonilla)
+---
 
-¡Gracias por visitar mi perfil! 
+## 📬 Contacto
+| | |
+|---|---|
+| **Correo** | [jesusarielgb@gmail.com](mailto:jesusarielgb@gmail.com) |
+| **LinkedIn** | <https://www.linkedin.com/in/jesusarielgonzalezbonilla> |
+
+---
+
+<p align="center"><em>“La tecnología debe resolver problemas reales y acercar oportunidades a todos.”</em> 🚀</p>
