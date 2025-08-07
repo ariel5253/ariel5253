@@ -1,38 +1,30 @@
 name: Actualizar tarjetas del README
 
-# ────────────────
-# Cuándo se ejecuta
-# ────────────────
 on:
   schedule:
-    - cron: '0 3 * * *'        # cada día a las 03:00 UTC
-  workflow_dispatch:            # botón manual "Run workflow"
+    - cron: '0 3 * * *'        # cada día a las 03 UTC
+  workflow_dispatch:
 
-# ─────────────────────────────────────────────
-# Permisos que recibe el token automático
-# ─────────────────────────────────────────────
 permissions:
-  contents: write   # permite hacer push
-  statuses: read
+  contents: write              # permite hacer push
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Clonar el repo
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      # 1) Checkout del repo
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0        # necesario para poder hacer push
+          fetch-depth: 0
 
-      # 2) Configurar Git para el commit
+      # 2) Configuración de Git
       - name: Set up git config
         run: |
           git config --global user.name  "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 3) Generar las tarjetas con contribuciones privadas
+      # 3) Generar tarjetas (el token viaja como parámetro ?token=…)
       - name: Generate README stats
         env:
           TOKEN: ${{ secrets.GH_STATS_TOKEN }}
@@ -40,16 +32,16 @@ jobs:
           mkdir -p assets
 
           echo "Descargando gh-stats.svg…"
-          curl -sSf -H "Authorization: token $TOKEN" \
-               "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight" \
-               -o assets/gh-stats.svg
+          curl -sSfL \
+            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight&token=${TOKEN}" \
+            -o assets/gh-stats.svg
 
           echo "Descargando gh-streak.svg…"
-          curl -sSf -H "Authorization: token $TOKEN" \
-               "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=tokyonight&count_private=true" \
-               -o assets/gh-streak.svg
+          curl -sSfL \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight" \
+            -o assets/gh-streak.svg
 
-      # 4) Commit & push — solo si hay cambios
+      # 4) Commit & push si hay cambios
       - name: Commit and push if updated
         run: |
           if git status --porcelain | grep assets/; then
