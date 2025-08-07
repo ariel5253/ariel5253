@@ -1,34 +1,62 @@
 name: Actualizar tarjetas del README
 
+# ────────────────
+# Cuándo se ejecuta
+# ────────────────
 on:
   schedule:
-    - cron: '0 3 * * *'   # cada día a las 03 UTC
-  workflow_dispatch:       # botón “Run workflow”
+    - cron: '0 3 * * *'        # cada día a las 03:00 UTC
+  workflow_dispatch:            # botón manual "Run workflow"
+
+# ─────────────────────────────────────────────
+# Permisos que recibe el token automático
+# ─────────────────────────────────────────────
+permissions:
+  contents: write   # permite hacer push
+  statuses: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      # 1) Clonar el repo
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # necesario para poder hacer push
 
-      - name: Generar tarjetas con stats privados
+      # 2) Configurar Git para el commit
+      - name: Set up git config
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 3) Generar las tarjetas con contribuciones privadas
+      - name: Generate README stats
         env:
           TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: |
           mkdir -p assets
-          curl -H "Authorization: token $TOKEN" \
+
+          echo "Descargando gh-stats.svg…"
+          curl -sSf -H "Authorization: token $TOKEN" \
                "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight" \
                -o assets/gh-stats.svg
 
-          curl -H "Authorization: token $TOKEN" \
+          echo "Descargando gh-streak.svg…"
+          curl -sSf -H "Authorization: token $TOKEN" \
                "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=tokyonight&count_private=true" \
                -o assets/gh-streak.svg
 
-      - name: Commit y push si cambió algo
+      # 4) Commit & push — solo si hay cambios
+      - name: Commit and push if updated
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets
-          git diff --cached --quiet || git commit -m "chore: auto-update README stats"
-          git push
+          if git status --porcelain | grep assets/; then
+            git add assets
+            git commit -m "chore: auto-update README stats [skip ci]"
+            git push
+            echo "SVG actualizados y enviados."
+          else
+            echo "Sin cambios en los SVG; no se hace commit."
+          fi
