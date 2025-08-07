@@ -1,0 +1,34 @@
+name: Actualizar tarjetas del README
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # cada día a las 03 UTC
+  workflow_dispatch:       # botón “Run workflow”
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar tarjetas con stats privados
+        env:
+          TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: |
+          mkdir -p assets
+          curl -H "Authorization: token $TOKEN" \
+               "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&count_private=true&show_icons=true&hide_title=true&hide=issues&theme=tokyonight" \
+               -o assets/gh-stats.svg
+
+          curl -H "Authorization: token $TOKEN" \
+               "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=tokyonight&count_private=true" \
+               -o assets/gh-streak.svg
+
+      - name: Commit y push si cambió algo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "chore: auto-update README stats"
+          git push
