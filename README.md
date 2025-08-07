@@ -1,91 +1,79 @@
-<!-- README.md — perfil profesional -->
+<!-- README.md — professional profile -->
 
 <h1 align="center">Jesús Ariel González Bonilla</h1>
 <p align="center">
-  Desarrollador full-stack &nbsp;|&nbsp; Go · Spring Boot · Vue.js &nbsp;|&nbsp; IA &amp; docencia técnica
+  Full-stack Developer &nbsp;|&nbsp; Go · Spring Boot · Vue.js &nbsp;|&nbsp; AI & Technical Teaching
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ubicación-Neiva,%20Huila,%20Colombia-blue?style=flat-square" alt="Ubicación">
-  <img src="https://komarev.com/ghpvc/?username=ariel5253&label=Visitas&style=flat-square&color=brightgreen" alt="Visitas al perfil">
+  <img src="https://img.shields.io/badge/Location-Neiva,%20Huila,%20Colombia-blue?style=flat-square" alt="Location">
+  <img src="https://komarev.com/ghpvc/?username=ariel5253&label=Profile%20views&style=flat-square&color=brightgreen" alt="Profile views">
 </p>
 
 ---
 
-## 🗒 Sobre mí
-Desarrollador **full-stack** con **diez años** de experiencia en la creación de soluciones limpias, robustas y escalables.  
-Trabajo con **Go** y **Spring Boot**, curso una **Especialización en Inteligencia Artificial** y participo en **AI4Devs Seniors**.  
-Combino mi labor técnica con la **docencia** en educación superior, fomentando pensamiento crítico y buenas prácticas de ingeniería.
+## 🗒 About Me
+Full-stack developer with **ten years** of experience building clean, robust, and scalable solutions.  
+I work mainly with **Go** and **Spring Boot**, I’m pursuing a **postgraduate diploma in Artificial Intelligence**, and I’m part of **AI4Devs Seniors**.  
+I combine my technical work with **higher-education teaching**, promoting critical thinking and sound engineering practices.
 
 ---
 
-## 💼 Trayectoria profesional
-- **2015 – presente** | Proyectos comerciales y académicos en Go, Spring Boot y Vue.js.  
-- Diseño y mantenimiento de arquitecturas limpias, microservicios y API REST.  
-- Liderazgo técnico en equipos ágiles y mentoría a desarrolladores junior.  
+## 💼 Professional Background
+- **2015 – present** | Commercial and academic projects in Go, Spring Boot, and Vue.js  
+- Design and maintenance of clean architectures, microservices, and REST APIs  
+- Technical leadership in agile teams and mentoring of junior developers  
 
 ---
 
-## 🛠 Competencias técnicas
-| Área | Tecnologías |
-|------|-------------|
-| **Lenguajes** | Go · Java (Spring Boot) · Python · PHP · SQL |
-| **Frontend & mobile** | Vue.js · Ionic |
-| **Bases de datos** | PostgreSQL · MySQL · SQL Server · MongoDB |
-| **DevOps & calidad** | Git · Docker · CI/CD (GitHub Actions, GitLab CI) · Testing |
-| **Arquitectura** | Clean Architecture · API REST · UML |
+## 🛠 Technical Skills
+| Area | Technologies |
+|------|--------------|
+| **Languages** | Go · Java (Spring Boot) · Python · PHP · SQL |
+| **Frontend & Mobile** | Vue.js · Ionic |
+| **Databases** | PostgreSQL · MySQL · SQL Server · MongoDB |
+| **DevOps & Quality** | Git · Docker · CI/CD (GitHub Actions, GitLab CI) · Testing |
+| **Architecture** | Clean Architecture · REST API · UML |
 
 ---
 
-## 👨‍🏫 Experiencia docente
-Más de siete años impartiendo desarrollo de software en **SENA**, **Corporación Universitaria Corhuila** y **UNAB**, acompañando proyectos académicos y profesionales.
+## 👨‍🏫 Teaching Experience
+More than seven years teaching software development in higher education, guiding both academic and professional projects.
 
 ---
 
-## 🎓 Formación académica
-- Especialización en **Inteligencia Artificial** *(en curso)*  
-- Programa **AI4Devs Seniors** *(en curso)*  
-- Maestría en **Gerencia de Sistemas de Información y Proyectos Tecnológicos**  
-- Especialización en **Procesos Pedagógicos de la Formación Profesional**  
-- Especialización en **Seguridad de Base de Datos**  
-- **Ingeniería de Sistemas**  
-- Tecnólogo en **ADSI** (Análisis y Desarrollo de Sistemas de Información)
+## 🎓 Education
+- Postgraduate Diploma in **Artificial Intelligence** *(ongoing)*  
+- **AI4Devs Seniors** Program *(ongoing)*  
+- Master’s in **Information Systems Management and Technology Projects**  
+- Postgraduate Diploma in **Pedagogical Processes for Vocational Training**  
+- Postgraduate Diploma in **Database Security**  
+- **B.Sc. in Computer Engineering**  
+- Technologist in **Analysis and Software Development (ADSI)**  
 
 ---
 
-## 🔥 Estadísticas de GitHub
+## 🔥 GitHub Stats
 <p align="center">
-  <img src="assets/gh-stats.svg" alt="Resumen GitHub" height="160"/>
-  <img src="assets/lang-commit.svg" alt="Lenguaje con más commits" height="160"/>
+  <img src="assets/gh-stats.svg" alt="GitHub summary" height="160"/>
+  <img src="assets/lang-commit.svg" alt="Most committed language" height="160"/>
   <br/>
-  <img src="assets/gh-streak.svg" alt="Racha de contribuciones" height="180"/>
-  <img src="assets/lang-repos.svg" alt="Repos por lenguaje" height="180"/>
+  <img src="assets/gh-streak.svg" alt="Contribution streak" height="180"/>
+  <img src="assets/lang-repos.svg" alt="Repos per language" height="180"/>
   <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=ariel5253&theme=tokyonight&no-frame=true&row=1&margin-w=12" alt="Trofeos de perfil"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=ariel5253&theme=tokyonight&no-frame=true&row=1&margin-w=12" alt="Profile trophies"/>
 </p>
 
-> Estas tarjetas se actualizan automáticamente cada día mediante un workflow de GitHub Actions e incluyen mis contribuciones privadas.
+> These cards are updated daily by a GitHub Actions workflow and include my private contributions.
 
 ---
 
-## 🤝 Comunidades y colaboraciones
-| Comunidad / Programa | Ciudad / País | Repositorio |
-|----------------------|--------------|-------------|
-| Academic Sessions Corhuila | Neiva, Colombia | [code-corhuila](https://github.com/code-corhuila) |
-| Academic Sessions UNAB | Bucaramanga, Colombia | [UNAB](https://github.com/UNAB) |
-| Academic Sessions SENA | Colombia | [code-sena](https://github.com/code-sena) |
-| Developer Code FullStack | Colombia | [DeveloperCode-FullStack](https://github.com/DeveloperCode-FullStack) |
-| Hackaboss Bootcamps | España | [hackaboss-bootcamps](https://github.com/hackaboss-bootcamps) |
-| Research Hotbed Developers Geeks | Neiva, Colombia | [developers-geeks](https://github.com/developers-geeks) |
-
----
-
-## 📬 Contacto
+## 📬 Contact
 | | |
 |---|---|
-| **Correo** | [jesusarielgb@gmail.com](mailto:jesusarielgb@gmail.com) |
+| **Email** | [jesusarielgb@gmail.com](mailto:jesusarielgb@gmail.com) |
 | **LinkedIn** | <https://www.linkedin.com/in/jesusarielgonzalezbonilla> |
 
 ---
 
-<p align="center"><em>“La tecnología debe resolver problemas reales y acercar oportunidades a todos.”</em> 🚀</p>
+<p align="center"><em>“Technology should solve real problems and bring opportunities closer to everyone.”</em> 🚀</p>
