@@ -64,7 +64,6 @@ More than seven years teaching software development in higher education, guiding
   <img src="https://github-profile-trophy.vercel.app/?username=ariel5253&theme=tokyonight&no-frame=true&row=1&margin-w=12" alt="Profile trophies"/>
 </p>
 
-> These cards are updated daily by a GitHub Actions workflow and include my private contributions.
 
 ---
 
