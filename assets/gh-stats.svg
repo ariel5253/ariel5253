@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Jes&#250;s Ariel Gonz&#225;lez Bonilla's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 8, Total Commits  (last year) : 105, Total PRs: 29, Contributed to (last year): 46</desc>
+        <desc id="descId">Total Stars Earned: 8, Total Commits  (last year) : 105, Total PRs: 30, Contributed to (last year): 47</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 190.34662292725167;
+        stroke-dashoffset: 189.767952744115;
       }
     }
   
@@ -178,7 +178,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >29</text>
+      >30</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -193,7 +193,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >46</text>
+      >47</text>
     </g>
   </g>
     </svg>
