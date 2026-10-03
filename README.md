@@ -1,8 +1,8 @@
 <!--
 CONFIG
 FULL_NAME: Jesús Ariel González Bonilla
-ROLE: Software Developer
-STACK: Go · Spring Boot · PostgreSQL
+ROLE: AI Software Engineer
+STACK: Agents with LangGraph & MCP · Backend in Java, Go & Kafka
 FOCUS: Backend · Software Architecture · AI
 GITHUB_USER: ariel5253
 QUOTE: Technology should solve real problems.
@@ -11,7 +11,12 @@ QUOTE: Technology should solve real problems.
 <h1 align="center">Jesús Ariel González Bonilla</h1>
 
 <p align="center">
-  Software Developer &nbsp;|&nbsp; Go · Spring Boot · PostgreSQL
+  AI Software Engineer &nbsp;|&nbsp; Agents with LangGraph &amp; MCP · Backend in Java, Go &amp; Kafka
+</p>
+
+<p align="center">
+  <a href="https://ariel5253.github.io">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/jesusarielgonzalezbonilla">LinkedIn</a>
 </p>
 
 <p align="center">
@@ -43,11 +48,14 @@ My main areas of interest are backend development, distributed systems, software
 ## GitHub Activity
 
 <p align="center">
-  <img src="assets/gh-stats.svg" alt="GitHub summary" height="160"/>
-  <img src="assets/lang-commit.svg" alt="Most committed language" height="160"/>
-  <br/>
-  <img src="assets/gh-streak.svg" alt="Contribution streak" height="180"/>
-  <img src="assets/lang-repos.svg" alt="Repositories per language" height="180"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <img src="assets/activity-light.svg" alt="GitHub activity in the last 12 months: contributions, commits, pull requests, code reviews and issues" width="400">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/consistency-dark.svg">
+    <img src="assets/consistency-light.svg" alt="Contribution consistency: current streak, longest streak, active days and weekly activity" width="400">
+  </picture>
 </p>
 
 ---
